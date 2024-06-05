@@ -1,0 +1,15 @@
+.btn {
+    border-radius: 80rem;
+    background-color: $btn;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    font-weight: 600;
+    transition: all .25s linear;
+    cursor: pointer;
+
+    &:hover, &:focus {
+        background-color: white;
+        color: $black;
+    }
+}

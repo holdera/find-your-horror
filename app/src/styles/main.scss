@@ -1,0 +1,18 @@
+@import '../../node_modules/normalize-scss/sass/normalize';
+
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+@import './base/base';
+
+@import './layout/header';
+@import './layout/nav';
+@import './layout/sidebar';
+@import './layout/layout';
+@import './layout/footer';
+
+@import './components/button';
+@import './components/cta';
+@import './components/form';
+
+@import './pages/home'

@@ -1,12 +1,11 @@
 import Image from 'next/image';
-import styles from './page.module.css';
 
 export default function Home() {
 	return (
-		<main>
+		<div className='home home-wrapper'>
 			<div>
 				<h1>Coming Soon!</h1>
 			</div>
-		</main>
+		</div>
 	);
 }

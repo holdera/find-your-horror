@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    color: $black;
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    @include tabletUp {
+        font-size: 1.125rem;
+    }
+}
+
+a {
+    color: $black;
+}

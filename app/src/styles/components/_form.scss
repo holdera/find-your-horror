@@ -1,0 +1,56 @@
+.form {
+    
+    label {
+        display: block;
+        margin-bottom: 0.25rem;
+        font-weight: 600;
+    }
+
+    input {
+        border-radius: 4rem;
+        padding: 1rem;
+        width: 100%;
+        display: block;
+        border: 1px solid $black;
+        font-size: 1rem;
+
+    }
+}
+
+// login form
+#login-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    
+    @media screen and (min-width: 768px) {
+        align-items: center;
+    }
+}
+
+#login-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    padding: 2rem;
+    @media screen and (min-width: 768px) {
+        padding: 4rem;
+        width: 90%;
+    }
+}
+
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.input-error {
+    color: $error;
+    font-weight: 500;
+    margin: 0.5rem 0 0 0;
+}
+
+.forgot-password {
+    text-align: right;
+}

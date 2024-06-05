@@ -1,0 +1,29 @@
+@mixin customUp($size) {
+    @media screen and (min-width: $size) {
+        @content
+    }
+}
+
+@mixin tabletUp(){
+    @media screen and (min-width: $tablet) {
+        @content
+    }
+}
+
+@mixin smDesktopUp(){
+    @media screen and (min-width: $smDesktop) {
+        @content
+    }
+}
+
+@mixin desktopUp(){
+    @media screen and (min-width: $desktop) {
+        @content
+    }
+}
+
+@mixin lgDesktopUp(){
+    @media screen and (min-width: $lgDesktop) {
+        @content
+    }
+}
